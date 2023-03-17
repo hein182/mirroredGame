@@ -6,7 +6,7 @@
 ```javascript
 window.scrollTo(0, 0);
 ```
--4. Here is the code necessary for this -->
+-  Here is the code necessary for this:
 
 ```javascript
 //return mouse position in canvas when hovering canvas
@@ -26,4 +26,4 @@ canvas.addEventListener('mousemove', function (event) {
     ctx.closePath();
 ```
     
-- you can see you need to subtract the canvas width, height with current mouse x, y values
+-  You can see you need to subtract the canvas width, height with current mouse x, y values in order to display a Mirrored Mouse for Canvas.
