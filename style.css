@@ -1,0 +1,96 @@
+header {
+    background-size: cover;
+    /* set the height of the header */
+    height: 40px;
+    /* set the width of the header */
+    width: 100%;
+
+    /* make text nice   */
+    text-align: center;
+    /* set the font size */
+    font-size: 20px;
+    /* set the font color */
+    color: #ffb180;
+    /* set the font weight */
+    font-weight: bold;
+    /* set the font family */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li {
+    /* make the list of links horizontal */
+    display: inline-block;
+    /* remove the bullets from the list */
+    list-style: none;
+    /* make a elements look like buttons */
+    padding: 4px 50px;
+    text-decoration: none;
+    /* set the font size */
+    font-size: 16px;
+    /* set the font color */
+    color: black;
+
+    /* set the font weight */
+    font-weight: bold;
+    /* set the background color */
+    background: #8eff80;
+    /* set the border radius */
+    /* set the margin */
+    margin: 10px;
+}
+
+nav {
+
+    background-size: cover;
+    /* set the height of the main section */
+    height: 100%;
+    /* set the width of the main section */
+    width: 100%;
+    /* set the background color */
+    background: #80ceff no-repeat center center;
+    /* set the border radius for only top corners */
+    border-radius: 10px 10px 0px 0px;
+}
+main {
+    background-size: cover;
+    /* set the height of the main section */
+    height: 100%;
+    /* set the width of the main section */
+    width: 100%;
+    /* set the background color */
+    background: #808eff no-repeat center center;
+    /* set the font color */
+    color: #fff180;
+    margin-top: -8px;
+    padding: 1px 0px 1px 0px;
+}
+
+body {
+    /* center the page automatically */
+    margin: 0 auto;
+    /* set the width of the page */
+    width: 77%;
+    /* set the background color */
+    background: #80fff1;
+    /* set the font family */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    /* center text */
+    text-align: center;
+
+}
+
+footer {
+    background-color: #808eff;
+    color: #ffb180;
+    border-radius: 0px 0px 10px 10px;
+    padding: 1px 0px 1px 0px;
+    margin-top: 10px;
+}
+
+canvas {
+    background-color: #80ceff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-style: dotted;
+}

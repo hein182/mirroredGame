@@ -1,0 +1,38 @@
+<!-- Author: Richard Claytemple
+Date: 3/16/2023
+Description: Mirrored Game using mouse position and canvas -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mirrored Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Mirrored Mouse Example</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Hover your mouse Here</h3>
+        <canvas id="canvas" width="700" height="300">
+            Your browser does not support the canvas element.
+        </canvas>
+        <p>This should result in a mirror of your mouse over the screens width.</p>
+
+        <button onclick=clearCanvas()>Clear the Canvas</button>
+    </main>
+    <footer>
+        <p>Made by Richard Claytemple.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
