@@ -1,10 +1,10 @@
-# mirroredGame
+# Mirrored Mouse Concept
 
 -  This is just a simple concept of how you can use math to mirror your mouse position among a canvas
 -  In order to achieve this you have to get the canvasOffsets and subtract them from your mouse.
 -  Some challenges I faced in this was making sure the User doesn't scroll by using
 ```javascript
-window.scrollTo(0, 0);
+window.scrollTo(0, 0);`
 -4. Here is the code necessary for this -->
 
 ```javascript
@@ -22,6 +22,6 @@ canvas.addEventListener('mousemove', function (event) {
     //color of object
     ctx.fillStyle = "#fff";
     ctx.fill();
-    ctx.closePath();
+    ctx.closePath();`
     
 - you can see you need to subtract the canvas width, height with current mouse x, y values
