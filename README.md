@@ -1,8 +1,8 @@
 # mirroredGame
 
--1. This is just a simple concept of how you can use math to mirror your mouse position among a canvas
--2. In order to achieve this you have to get the canvasOffsets and subtract them from your mouse.
--3. Some challenges I faced in this was making sure the User doesn't scroll by using
+- . This is just a simple concept of how you can use math to mirror your mouse position among a canvas
+- . In order to achieve this you have to get the canvasOffsets and subtract them from your mouse.
+- . Some challenges I faced in this was making sure the User doesn't scroll by using
 ```javascript
 window.scrollTo(0, 0);
 -4. Here is the code necessary for this -->
